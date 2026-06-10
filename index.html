@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lattes</title>
+</head>
+<body>
+  <div class="screen-center" data-name="Tela de Login/Cadastro">
+    <main class="main-login-container" data-name="Main - Login Container">
+      <section class="header-top-section" data-name="Header - Top Section: Brand & Welcome">
+        <div class="background-shadow" data-name="Background+Shadow" aria-hidden="true">
+          <div class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+              <rect width="64" height="64" rx="16" fill="#0F2F5F" />
+              <path d="M19 28 32 21l13 7-13 7z" fill="#fff" />
+              <path d="M22 34v6h20v-6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+            </svg>
+          </div>
+        </div>
+        <div class="heading-1" data-name="Heading 1">
+          <h1>Lattes CNPQ</h1>
+        </div>
+        <div class="container welcome-text" data-name="Container">
+          <p>Bem-vindo à sua jornada científica</p>
+        </div>
+      </section>
+
+      <section class="login-card" data-name="Login Card">
+        <form class="form" data-name="Form">
+          <div class="email-input" data-name="E-mail Input">
+            <label class="label" for="email">E-mail institucional</label>
+            <div class="input-container" data-name="Container">
+              <span class="input-icon">✉</span>
+              <input id="email" type="email" placeholder="nome@universidade.edu.br" />
+            </div>
+          </div>
+
+          <div class="password-input" data-name="Password Input">
+            <div class="password-row">
+              <label class="label" for="password">Senha</label>
+              <a class="forgot-link" href="#">Esqueci minha senha</a>
+            </div>
+            <div class="input-container" data-name="Container">
+              <span class="input-icon">🔒</span>
+              <input id="password" type="password" placeholder="••••••••" />
+            </div>
+          </div>
+
+          <button type="submit" class="button-primary-action" data-name="Button - Primary Action">
+            <span class="button-text">Entrar na Plataforma →</span>
+          </button>
+        </form>
+
+        <div class="social-login-divider" data-name="Social Login Divider">
+          <span class="divider-line"></span>
+          <div class="divider-text" data-name="Paragraph+Background">
+            <span>OU ACESSE COM SUA CONTA</span>
+            <span>ACADÊMICA</span>
+          </div>
+          <span class="divider-line"></span>
+        </div>
+
+        <div class="social-login-buttons" data-name="Social Login Buttons">
+          <button class="button-secondary button-google" type="button" data-name="Button - Google Scholar">
+            <span class="social-icon" data-name="Google Scholar">G</span>
+            <span>Google Scholar</span>
+          </button>
+          <button class="button-secondary button-orcid" type="button" data-name="Button - ORCID">
+            <span class="social-icon orcid-icon" data-name="SVG">iD</span>
+            <span>ORCID iD</span>
+          </button>
+        </div>
+
+        <div class="footer-section" data-name="Footer Section">
+          <p class="footer-text">
+            Não possui uma conta? <a href="#">Cadastrar currículo</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="additional-logos" data-name="Additional institutional logos or info" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
